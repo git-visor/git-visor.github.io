@@ -45,7 +45,8 @@
       "title": "Web App Guide",
       "headings": {
         "how-to-use": "How to Use",
-        "navigating-the-graph": "Navigating the Graph"
+        "navigating-the-graph": "Navigating the Graph",
+        "embedding-the-graph": "Embedding the Graph"
       },
       "headingKeywords": {}
     },
