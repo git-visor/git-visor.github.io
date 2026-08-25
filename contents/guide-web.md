@@ -17,3 +17,19 @@
 
 # Navigating the Graph
 To understand more about what the graph represents and how to navigate it, check out the [Graph Navigation Guide]({{baseUrl}}/contents/graph-navigation.html).
+
+# Embedding the Graph
+You can embed the graph visualisation in your own website or application using an iframe. To do this, you can use the following HTML code snippet:
+
+```html
+<iframe
+  id="gitvisor"
+  title="Git-Visor Embed"
+  src="./?embed=1&url=YOUR_GIT_REPO_JSON_URL"
+  width="600"
+  height="600"
+  style="border:0">
+</iframe>
+```
+
+The [Embedded Graph Example](http://git-visor.github.io/web-app/test-embed.html) shows an example of how the embedded graph will look like. You can replace the `src` attribute with the URL of your own Git repository JSON data to embed your own graph visualisation.
